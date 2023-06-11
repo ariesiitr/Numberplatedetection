@@ -47,18 +47,18 @@ pip install -r requirements.txt
 4. Run the code:
 
 ```
-python detect_numberplate.py --image path/to/image.jpg
+python main.py
+
 ```
 
 ## Usage
 
-To detect number plates in an image, you can use the `detect_numberplate.py` script. It takes the path to an input image as a command-line argument and outputs the image with the detected number plate highlighted.
+To detect number plates in an image, you can use the `main.py` script. It takes the path to an input image as a command-line argument and outputs the image with the detected number plate highlighted.
 
 ```
-python detect_numberplate.py --image path/to/image.jpg
+python main.py
 ```
 
-Replace `path/to/image.jpg` with the actual path to your image file. The output image will be saved as `output.jpg` in the project directory.
 
 ## Algorithm
 
@@ -80,13 +80,5 @@ For a detailed explanation of the algorithm, please refer to the code comments i
 
 Here are some example images showing the output of the number plate detection algorithm:
 
-![Example 1](examples/example1.jpg)
-![Example 2](examples/example2.jpg)
 
-## Contributing
 
-Contributions to this project are welcome. If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and use the code for your own projects.

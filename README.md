@@ -74,11 +74,12 @@ The number plate detection algorithm consists of the following steps:
 
 5. **Number Plate Extraction**: The number plate is extracted from the ROI and saved as a separate image.
 
-For a detailed explanation of the algorithm, please refer to the code comments in `detect_numberplate.py`.
+For a detailed explanation of the algorithm, please refer to the code comments in 'main.py`.
 
 ## Results
 
 Here are some example images showing the output of the number plate detection algorithm:
 
-
+By-
+Aniket Raj
 
